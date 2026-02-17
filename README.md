@@ -7,13 +7,13 @@ A modular Python framework for simulating and benchmarking numerical integration
 
 The project follows a modular design pattern to ensure extensibility and separation of concerns:
 
-\`\`\`bash
-├── data.csv          # Input time-series data (Time, Acceleration, Displacement)
-├── euler.py          # Forward Euler integration module (Order 1)
-├── rk2.py            # Runge-Kutta 2nd Order / Heun's Method module (Order 2)
-├── rk4.py            # Runge-Kutta 4th Order module (Order 4)
-├── verlet.py         # Velocity Verlet symplectic integrator module (Order 2)
-└── evaluator.py      # Main execution script for benchmarking and visualization
+```bash
+├── data.csv          # Input time-series data
+├── euler.py          # Forward Euler integration module
+├── rk2.py            # Runge-Kutta 2nd Order module
+├── rk4.py            # Runge-Kutta 4th Order module
+├── verlet.py         # Velocity Verlet module
+└── evaluator.py      # Main execution script
 \`\`\`
 
 ## 🚀 Algorithms Implemented
